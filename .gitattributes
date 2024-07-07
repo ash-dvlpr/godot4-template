@@ -2,3 +2,10 @@
 * text=auto eol=lf
 # Increase probability of success for merging files with specific extensions
 *.cs diff=csharp
+
+
+
+# Macro attributes: Binary files or files that should be managed by LFS due to size
+[attr]lfs-file filter=lfs diff=lfs merge=lfs
+[attr]bin-file lfs-file -text binary
+
