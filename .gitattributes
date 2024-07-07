@@ -31,6 +31,8 @@
 
 ## Game Dev generic files
 # Images
+*.ase bin-file
+*.aseprite bin-file
 *.afdesign bin-file
 *.afphoto bin-file
 *.ai bin-file
