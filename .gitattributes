@@ -23,3 +23,85 @@
 *.anim bin-file
 *.material bin-file
 
+
+
+## Game Dev generic files
+# Images
+*.afdesign bin-file
+*.afphoto bin-file
+*.ai bin-file
+*.psd bin-file
+
+*.png bin-file
+*.jpg bin-file
+*.jpeg bin-file
+*.webp bin-file
+*.svg bin-file
+*.gif bin-file
+
+*.exr bin-file
+*.hdr bin-file
+*.ktx bin-file
+
+*.bmp bin-file
+*.dds bin-file
+*.pict bin-file
+*.tga bin-file
+*.iff bin-file
+*.tiff bin-file
+
+# Audio
+*.mp3 bin-file
+*.m4a bin-file
+*.wav bin-file
+*.ogg bin-file
+
+*.aif bin-file
+*.aiff bin-file
+*.it bin-file
+*.mod bin-file
+*.s3m bin-file
+*.xm bin-file
+
+# Video
+*.mp4 bin-file
+*.avi bin-file
+*.mov bin-file
+*.ogv bin-file
+
+*.asf bin-file
+*.mpg bin-file
+*.mpeg bin-file
+
+# 3D Models
+*.blend bin-file
+*.3ds bin-file
+*.3dm bin-file
+*.max bin-file
+
+*.obj bin-file
+*.glb bin-file
+*.gltf bin-file
+*.fbx bin-file
+*.FBX bin-file
+
+*.abc bin-file
+*.c4d bin-file
+*.dae bin-file
+*.dfx bin-file
+*.lwo bin-file
+*.lwo2 bin-file
+*.lxo bin-file
+*.ma bin-file
+*.mb bin-file
+
+# Fonts
+*.ttf bin-file
+*.otf bin-file
+
+# Bundles and Packaging
+*.7z bin-file
+*.zip bin-file
+*.rar bin-file
+*.tar bin-file
+*.gz bin-file
