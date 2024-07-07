@@ -5,8 +5,10 @@
 
 
 
-# Macro attributes: Binary files or files that should be managed by LFS due to size
+## Macro attributes
+# Files that should be managed by LFS due to size
 [attr]lfs-file filter=lfs diff=lfs merge=lfs
+# LFS files that are also binary files
 [attr]bin-file lfs-file -text binary
 
 
@@ -14,6 +16,8 @@
 ## Godot specific files
 *.tscn lfs-file
 *.tres lfs-file
+
+*.import linguist-generated
 
 # Binary formats
 *.scn bin-file
