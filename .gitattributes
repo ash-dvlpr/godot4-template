@@ -9,3 +9,17 @@
 [attr]lfs-file filter=lfs diff=lfs merge=lfs
 [attr]bin-file lfs-file -text binary
 
+
+
+## Godot specific files
+*.tscn lfs-file
+*.tres lfs-file
+
+# Binary formats
+*.scn bin-file
+*.res bin-file
+
+*.mesh bin-file
+*.anim bin-file
+*.material bin-file
+
