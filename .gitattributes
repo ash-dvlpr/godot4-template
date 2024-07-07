@@ -1,0 +1,4 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+# Increase probability of success for merging files with specific extensions
+*.cs diff=csharp
